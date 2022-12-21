@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+.app{ background-color: black;
+height: 1200px;}
+.nav h1{    color: aliceblue;
+  font-size: 30px;
+  margin-left: 93px;
+  margin-top: 36px;}
+.nav{
+        background-color:black;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px;
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav span{color: rgb(165, 25, 67);}
+.nav button {       margin-top: 31px;
+  color: aliceblue;
+  margin-left: 31px;
+  font-size: 23px;
+  border-radius: 95px;
+  background-color: rgb(165, 25, 67);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 1%;
+  justify-content: flex-end;
+  list-style: none;
+  margin-left: 392px;
+  margin-top: 6px;
+}
+.nav ul li{
+  margin-left: 139px;
+  color: aliceblue;
+  margin-top: 41px;
+}
+.nav a{text-decoration: none;
+color: aliceblue;}
+.nav ul :hover{ color: rgb(165, 25, 67);}
+.nav img{    margin-left: -3px;
+  margin-top: 6px;
+  height: 29px;
+  width: 29px;}
+#fly{
+  margin-top: 0px;
+  margin-left: -412px;
+  height: 41px;
+  width: 43px;
+}
+.nav img :hover{
+  color: rgb(165, 25, 67);
+}
+.pink img {    width: 375px;
+  height: 452px;
+  margin-left: 748px;
+  border-radius: 218px;
+  margin-top: 36px;}
+  .box1 h4{
+    margin-top: -387px;
+    color: #fcfc;;
+    margin-left: 282px;
+  }
+  .box1 h1 {     margin-left: 304px;
+    color: aliceblue;
+    margin-top: -21px;}
+    .box1 span{color: rgb(165, 25, 67);}
+    .box1 h3{
+      color: aliceblue;
+      margin-left: 282px;
+      margin-top: -18px;
+    }
+   .box2 input{border-radius: 30px;
+;
+  margin-left: 292px;
+border-color:rgb(165, 25, 67);
 }
 
-.App-link {
-  color: #61dafb;
+  #ok{margin-left: 8px;}
+ .hero{width: 100%;
+padding: 100px 0px;
+background-color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero img{
+  height: auto;
+  width: 430px;
+   
+  margin-top: 20%;
+    border-radius: 218px;
+  
 }
+.hero1{    margin-left: 76px;
+  width: 540px;
+  color: aliceblue;
+  margin-top: 27%;
+  font-size: 11px;}
+.box3{width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;}
+.box3 span{color: rgb(165, 25, 67);}
+.box3 h1{font-size: 40px;}
+.box3 h3{margin-top: -32px;
+  margin-left: 20px;}
+.box4{background-color: black;
+  color: aliceblue;}
+  .box4 h1{
+    color:rgb(165, 25, 67);
+    margin-left: 546px;
+  }
+  .box4 h3{
+    margin-left: 530px;
+  }
+  #kiko{    margin-left: 430px;
+  }
